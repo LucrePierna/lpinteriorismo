@@ -1,0 +1,60 @@
+.imagenlogo {
+  position: left;
+  width: 25%;
+  height: 25%;
+  display: inline-flex;
+}
+
+.accesos {
+  display: inline;
+}
+
+header {
+  display: flex;
+}
+
+.navbar {
+  background-color: rgba(253, 253, 253, 0.281);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 10px;
+  display: none;
+  margin-top: -20px;
+  font-family: 'Nunito';
+  font-weight: bold;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(83, 83, 83, 0.459);
+}
+
+div {
+  justify-content: center;
+  border-bottom: 5px;
+  display: flex;
+  padding-left: 2px;
+  margin: 20px;
+}
+
+nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button {
+  background-color: rgb(185, 138, 138);
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+  margin: 0px;
+  border-color: rgb(185, 138, 138);
+  border-bottom: none;
+  text-align: center;
+  font-family: 'Nunito';
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=header.css.map */
